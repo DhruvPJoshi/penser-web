@@ -1,0 +1,56 @@
+.login-modal {
+  background-color: #ffffff;
+  margin: 10% auto;
+  width: 40%;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px 10px #fce5e3;
+}
+
+#login-header {
+  font-family: Pacifico, cursive;
+  font-size: 50px;
+  color: #00b3ff;
+  text-align: center;
+}
+
+#login-body {
+  margin-top: 5%;
+}
+
+.form-control {
+  margin-top: 2%;
+}
+
+#login-body input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #0f6fa3;
+}
+
+#login-body input:focus {
+  outline: none;
+  border-bottom: 2px solid #0f6fa3;
+  background-color: #d6f1ff;
+}
+
+.login-label {
+  color: #4f4f4f;
+}
+
+#login-body button {
+  width: 100%;
+  background-color: #0f6fa3;
+  color: #ffffff;
+  padding: 2% 0;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#login-body button:focus {
+  outline: none;
+}
